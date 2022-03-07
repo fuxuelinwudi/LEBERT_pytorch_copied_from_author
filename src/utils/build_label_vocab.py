@@ -15,6 +15,7 @@ def build_label(args):
                 label_list.add(data[1])
 
     label_list = list(label_list)
+    label_list = sorted(label_list)
 
     out_label_path = os.path.join(args.lebert_file_path, 'label.txt')
     with open(out_label_path, 'w', encoding='utf-8') as f:

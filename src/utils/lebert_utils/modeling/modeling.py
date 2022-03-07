@@ -7,8 +7,7 @@ import torch.utils.checkpoint
 from transformers.configuration_bert import BertConfig
 from transformers.modeling_utils import PreTrainedModel
 from transformers.modeling_outputs import BaseModelOutputWithPooling
-from transformers.modeling_bert import load_tf_weights_in_bert, BertEmbeddings, BertPooler
-
+from transformers.modeling_bert import load_tf_weights_in_bert, BertPooler, BertEmbeddings
 from src.utils.lebert_utils.modeling.encoder import BertEncoder
 
 
